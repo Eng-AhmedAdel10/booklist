@@ -1,0 +1,38 @@
+body
+{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0));
+     width: 100%;
+     height: 100% !important;
+     min-height: 100vh;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.style
+{
+    text-shadow: 5px 5px  10px #222;
+    background:url(../imges/background-header.jpg);
+    background-size: cover;
+    height: 100px;
+    color: rgb(114, 41, 197);
+    text-transform: capitalize;
+    font-size: 3rem;
+    animation: position 10s ease  infinite ;
+}
+.style span
+{
+    display: block;
+    font-size: 1rem;
+    color: #000;
+}
+
+@keyframes position{
+    0%
+    {
+        background-position: top; 
+    }
+    100%
+    {
+        background-position: bottom;
+    }
+}
